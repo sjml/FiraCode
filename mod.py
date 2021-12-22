@@ -30,7 +30,7 @@ for buildscript in scripts:
     script_content = open(f"./script/{buildscript}", "r").read()
     script_content = script_content.replace("Fira Code", "Fira Mod")
     script_content = script_content.replace("FiraCode", "FiraMod")
-    script_file = open(f"./script/buildscript", "w")
+    script_file = open(f"./script/{buildscript}", "w")
     script_file.write(script_content)
     script_file.close()
 
