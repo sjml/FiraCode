@@ -210,7 +210,7 @@ code = "sub zero by zero.zero;\012sub zero.tosf by zero.tosf.zero;\012";
 name = zero;
 },
 {
-code = "";
+code = "sub zero by zero;";
 name = calt;
 },
 {
