@@ -25,7 +25,7 @@ glyphs_lines[calt_idx-1] = 'code = "sub zero by zero;";'
 
 ## Filenames need to be updated in build scripts, too, since some of the
 ## tools name outputs based on family name.
-scripts = ["build_ttf.sh", "build_variable.sh", "build_woff.sh", "build_woff2.sh"]
+scripts = ["build_ttf.sh", "build_variable.sh", "build_woff.sh", "build_woff2.sh", "build_docker.sh", "build.sh"]
 for buildscript in scripts:
     script_content = open(f"./script/{buildscript}", "r").read()
     script_content = script_content.replace("Fira Code", "Fira Mod")
