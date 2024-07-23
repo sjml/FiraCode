@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+### 7.0
+
+- Fixed overlap in U+2573 ╳ #1414
+
 ### 6.2
 
 - Fixed monospaced property #1325
@@ -21,7 +25,7 @@ Unicode:
 - Added U+220E End of Proof `∎` #1115
 - Added U+FFFD Replacement Character `�` #1137, thanks @gjvnq
 - Added U+EE00..U+EE0B Progress Bar `` #1182
-- Added U+2237 Propotion `∷` #1219
+- Added U+2237 Proportion `∷` #1219
 - Added U+21AA Rightwards Arrow with Hook `↪` #1307
   
 Changed:
@@ -265,7 +269,7 @@ Removed 44 individual arrow ligatures, replaced with four universal, combinative
 
 #### 1.102
 
-- Support for IntelliJ-based IDEs ([instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions))
+- Support for IntelliJ-based IDEs ([instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions))
 - Turned on autohinting
 
 #### 1.101
